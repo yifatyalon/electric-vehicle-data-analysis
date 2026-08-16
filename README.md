@@ -4,7 +4,12 @@ Academic Python project analyzing an electric-vehicle dataset using statistical 
 
 ## Project Overview
 
-The project includes data preparation, descriptive analysis, statistical testing, simulations, and visualizations.
+The project applies Python-based data analysis to explore patterns in electric-vehicle data. It includes:
+
+- Data preparation and validation
+- Descriptive statistical analysis
+- Statistical testing and simulations
+- Data visualization
 
 ## Tools
 
@@ -14,14 +19,11 @@ The project includes data preparation, descriptive analysis, statistical testing
 - SciPy
 - Matplotlib
 
-## Files
+## Repository Contents
 
-- `ev_analysis.py` – analysis and visualizations
+- `ev_analysis.py` – data analysis and visualizations
+- `ev_data.csv` – dataset used in the analysis
 - `requirements.txt` – required Python libraries
-
-## Dataset
-
-[Add the public dataset source here, or state that the dataset is not included because of course restrictions.]
 
 ## Running the Project
 
@@ -31,8 +33,12 @@ Install the required libraries:
 pip install -r requirements.txt
 ```
 
-Place `ev_data.csv` in the project folder and run:
+Run the analysis:
 
 ```bash
 python ev_analysis.py
 ```
+
+## Collaboration
+
+Developed as a two-person academic project.
